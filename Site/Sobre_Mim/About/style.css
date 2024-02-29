@@ -1,0 +1,166 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #010203;
+    color: white;
+    box-sizing: border-box;
+    justify-content: center; /* Centraliza horizontalmente */
+    
+
+}
+
+.titulo {
+    color: white;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.navbar__botoes{
+    align-items: center;
+}
+
+.apresentacao {
+    display: flex;
+    margin: 0% 10%;
+    width: 1440px;
+    height: 2714px;
+    position: relative;
+    
+    
+    
+    
+}
+
+.profile{
+    background-color: #131412 ;
+    margin: 6%;
+    width: 1240px;
+    height: 243px;
+    flex: 1;
+    
+    
+    
+    
+}
+
+.profile__conteudo{
+    display: flex; 
+    align-items: flex-start;
+    
+    
+
+    
+    
+}
+
+.profile__conteudo__text {
+    position: relative;
+    left: 100px;
+    top: 30px;
+
+}
+
+.titulo{
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
+
+.profile__conteudo__text__p1 {
+    font-family: 'Source Sans 3', sans-serif;
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+
+
+.profile__conteudo__text__buttons{
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 60px;
+    justify-content: space-between;
+    
+
+
+}
+
+.profile__conteudo__img{
+    position: relative;
+    width: 174px;
+    height: 174;
+    left: 50px;
+    top: 30px;
+
+}
+
+
+
+.profile__conteudo__icons{
+    display: flex;  /* Faz os icones ficarem um do lado do outro */
+    position: relative;
+    left: 210px;
+    top: 30px;
+    
+}
+.img2{
+    display: flex;  /* Faz os icones ficarem um do lado do outro */
+    position: relative;
+    left: 10px;
+
+}
+
+
+.profile__conteudo__text__buttons_1{
+    position: relative;
+    background-color:#3466F6;
+    color: #FFFFFF;
+    width: 139px;
+    height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 38px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+}
+
+.profile__conteudo__text__buttons_2{
+    text-align: center;
+    position: relative;
+    background-color:#FFFFFF;
+    color: #3466F6;
+    width: 109px;
+    height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 109px, 38px;
+    left: -450px;
+    top: 0px;
+    line-height: 38px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+    
+}
+
+
+
+
+
